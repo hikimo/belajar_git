@@ -12,12 +12,19 @@ body
 	max-width: 800px
 	margin: 40px auto
 	font-family: Ubuntu, sans-serif
-h1
+
+code
+	border-radius: 4px
+	background: #333
+	color: #eee
+	padding: 4px 6px
+
+h1, h3
 	padding: 0
 	margin: 0
 	position: relative
 
-h1::after
+h1::after, h3::after
 	content: ''
 	position: absolute
 	bottom: -4px
@@ -27,5 +34,5 @@ h1::after
 	border-bottom: 2px solid tomato
 	transition: all .4s
 
-h1:hover::after
+h1:hover::after, h3:hover::after
 	width: 50px
