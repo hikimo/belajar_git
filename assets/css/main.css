@@ -13,7 +13,7 @@ body {
   padding: 50px 60px;
   max-width: 800px;
   margin: 40px auto;
-  font-family: Ubuntu, sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 code {
@@ -27,6 +27,11 @@ h1, h3 {
   padding: 0;
   margin: 0;
   position: relative;
+  font-family: "Montserrat Alternates", cursive;
+}
+
+p {
+  margin-bottom: 35px;
 }
 
 h1::after, h3::after {
