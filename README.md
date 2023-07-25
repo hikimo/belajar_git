@@ -1,4 +1,4 @@
 # Belajar_git
 repository untuk belajar GIT
-# Jejak tambahkan nama kamu disini
+# Jejak penghuni
 - Childfreak Mengmong
